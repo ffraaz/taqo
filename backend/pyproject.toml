@@ -1,0 +1,27 @@
+[tool.black]
+line-length = 120
+
+[tool.isort]
+profile = "black"
+
+[tool.pylint]
+ignored-modules = [
+  "firebase_admin.firestore",
+]
+disable = [
+  "missing-module-docstring",
+  "missing-class-docstring",
+  "missing-function-docstring",
+  "line-too-long",
+  "broad-exception-caught",
+]
+
+[tool.mypy]
+[[tool.mypy.overrides]]
+module = "firebase_admin.*"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+env_files = [
+    "functions/.env",
+]

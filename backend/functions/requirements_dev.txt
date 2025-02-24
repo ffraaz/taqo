@@ -1,0 +1,13 @@
+firebase_functions
+stripe
+markdown2
+google-cloud-pubsub
+
+python-dotenv
+black
+pylint
+mypy
+pytest
+pytest-dotenv
+pytest-mock
+types-requests

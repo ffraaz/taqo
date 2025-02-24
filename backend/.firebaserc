@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "TAQO_DEMO",
+    "dev": "TAQO_DEMO",
+    "prod": "FF_REDACTED"
+  },
+  "targets": {},
+  "etags": {}
+}
